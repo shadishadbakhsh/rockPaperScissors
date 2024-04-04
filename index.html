@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Let's Play Rock Paper Scissors !</h1>
+    </div>
+    <div id="container">
+        <div id="result">    
+        </div>
+        <div id="gameAera">
+            <button type="button" class="rock" id="rock" onclick="playRound('rock')" >
+                <img src="images/rock.png">
+            </button>
+            <button type="button" class="paper" id="paper" onclick="playRound('paper')">
+                <img src="images/paper.png">
+            </button>   
+            <button type="button" class="scissors" id="scissors" onclick="playRound('scissors')">
+                <img src="images/scissors.png">
+            </button>
+            <div  id="score">
+                <div class="player">
+                    <p>Player score:</p>
+                    <p id="playerScore"></p>
+                </div>
+                <div class="computer">
+                    <p>Computer score:</p>
+                    <p id="computerScore"></p>
+                </div>
+            </div>
+            <div id="winner"></div>
+        </div> 
+    </div>
+    <div id="footer">
+        <p>Created by shadi 2024 © </p>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+body{
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    font-size: 12px;
+    margin: 10px;
+    margin-left: 38%;
+
+}
+
+#container{
+    margin: auto;
+    background-color: #c0cfc6;
+    padding: 64px;
+    border-radius: 12px;
+
+}
+
+#result{
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+
+#gameAera button{
+    background-color: #c0cfc6;
+    border: #c0cfc6;
+}
+
+#score{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.player{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.computer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#footer{
+    background-color: #c0cfc6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
